@@ -1,0 +1,254 @@
+.o-Nav {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #ffff;
+  position: fixed;
+  z-index: 100;
+}
+.o-nav-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 4.3rem;
+}
+.o-Nav img {
+  margin: 0.5rem;
+  position: absolute;
+  left: 0;
+}
+.o-links {
+  display: flex;
+}
+.o-link {
+  font: inherit;
+  color: #363636;
+  background-color: white;
+  font-size: 0.9375rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.o-link-menu {
+  box-sizing: border-box;
+  padding: 0rem 0.5rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.o-link-act {
+  color: #0172ce;
+  border-bottom: 0.3rem solid #0172ce;
+}
+.o-container-banner {
+  width: 100%;
+  padding-top: 7rem;
+
+  position: relative;
+}
+.o-banner {
+  height: 45rem;
+  box-sizing: border-box;
+  background-image: url("./assets/img/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.o-info-banner {
+  position: absolute;
+  height: 35rem;
+  width: 73%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 14%;
+
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 30;
+}
+.o-info-banner img {
+  width: 30rem;
+}
+.o-info-banner p {
+  font-weight: 300;
+  font-size: 3rem;
+}
+.o-info-indi {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.o-info-indi button {
+  padding: 1rem;
+  background-color: #0172ce;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 2rem;
+}
+.o-frame {
+  width: 100%;
+  height: 10rem;
+  position: relative;
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.85) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+.o-lisimg-x {
+  padding: 0;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.o-lisimg-x img {
+  margin: 1rem auto;
+}
+
+.o-app-corousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.o-minNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 80rem;
+}
+.o-mintitle {
+  color: #363636;
+  font-weight: 300;
+  font-size: 2.7rem;
+}
+.o-minNav a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #0172ce;
+  font-weight: 500;
+}
+
+.o-container-carosel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80rem;
+}
+.o-CardImg img {
+  width: 100%;
+}
+.o-CardImg {
+  margin: 1rem auto;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+}
+.o-CardImg h3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.o-price {
+  color: #363636;
+}
+.o-all-games {
+  margin: 1rem;
+
+  text-decoration: none;
+  color: #0172ce;
+  width: 12rem;
+  height: 12rem;
+  border: 0.1rem solid #0172ce;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.o-More {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.o-more-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.o-more-imgs img {
+  margin: 1rem auto;
+}
+.o-footer {
+  width: 100%;
+  background-color: #00439c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.o-container-footer {
+  padding: 5rem 5rem;
+  width: 75rem;
+}
+.o-footer-header {
+  width: 20rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.o-footer-header img {
+  width: 4rem;
+}
+.o-footer-header h4 {
+  color: white;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.o-footer-body {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+.o-footer-colum {
+  width: 20rem;
+  margin: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.o-footer-colum a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  margin: 1rem 0rem;
+}
+.o-container-footer p {
+  color: white;
+  text-align: center;
+}
+.sc-bdvvaa {
+  background-color: #0070cc !important;
+  color: white !important;
+  font-weight: 100 !important;
+}
